@@ -4,7 +4,6 @@ Replicate the layouts found in the *images* folder.
 
 Structure your repository in this manner:
 
-- /index.html
 - /centering
   - /centering/centering.html
   - /centering/centering.css
