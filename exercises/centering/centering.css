@@ -50,7 +50,7 @@ Centering  1
 
   flex: 0 1 65%;
 
-  border: .625em solid pink;
+  border: .25em solid pink;
 }
 
 /*+++++++++++++++
@@ -86,4 +86,14 @@ Centering  2
 
 .align-end {
   align-self: end;
+}
+
+/*+++++++++++++++
+
+Centering  3
+
++++++++++++++++*/
+
+.align-stretch {
+  align-self: stretch;
 }
