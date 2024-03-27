@@ -97,3 +97,14 @@ Centering  3
 .align-stretch {
   align-self: stretch;
 }
+
+/*+++++++++++++++
+
+Centering  4
+
++++++++++++++++*/
+
+.column {
+  display: flex;
+  flex-flow: column-reverse nowrap;
+}
