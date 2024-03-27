@@ -1,3 +1,67 @@
 * {
   box-sizing: border-box;
 }
+
+body {
+  margin: 0;
+  min-height: 100vh;
+
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 100%;
+  color: #000;
+  background-color: #eee;
+}
+
+h2 {
+  font-size: 1.5em;
+}
+
+p {
+  font-size: 1em;
+}
+
+#wrapper {
+  display: flex;
+
+  margin: 7em auto;
+  max-width: 50em;
+
+  border: .125em dashed black;
+
+  background-color: white;
+}
+
+nav {
+  padding: 2em;
+
+  background-color: gainsboro;
+}
+
+.main-content {
+  padding: 2em;
+}
+
+aside {
+  padding: 2em;
+
+  background-color: gainsboro;
+}
+
+footer {
+  position: relative;
+  margin-top: 9em;
+
+  padding: .125em;
+  background-color: #eee;
+}
+
+
+@media (max-width:960px) {
+
+  #wrapper {
+    flex-direction: column;
+  }
+
+}
+
+
