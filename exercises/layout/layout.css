@@ -22,25 +22,28 @@ p {
 
 #wrapper {
   display: flex;
+  justify-content: center;
 
   margin: 3em auto;
   max-width: 50em;
+  min-height: 40em;
 
   border: .125em dashed black;
-
-  background-color: white;
 }
 
 nav {
-  max-width: 10em;
   padding: 1em;
+  max-width: 10em;
 
   background-color: gainsboro;
 }
 
 .main-content {
-  max-width: 32em;
+  align-self: stretch;
   padding: 1em;
+  max-width: 30em;
+
+  background-color: white;
 }
 
 aside {
@@ -69,6 +72,7 @@ footer {
     order: 2;
     max-width: 100%;
   }
+
   nav {
     order: 1;
     max-width: 100%;
@@ -77,4 +81,69 @@ footer {
   .main-content {
     order: -1;
   }
+}
+
+
+/*+++++++++++++++
+
+Layout 2
+
++++++++++++++++*/
+
+#main-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  max-width: 50em;
+
+  margin: 3em auto;
+  border: .125em dashed black;
+}
+
+#wrapper-2 {
+  display: flex;
+  justify-content: center;
+
+  min-width: 50em;
+}
+
+.navigation-top {
+  display: flex;
+  align-items: center;
+
+  padding: 2em 1em;
+  min-width: 50em;
+
+  background-color: transparent;
+}
+
+.list-top {
+  padding-left: 0;
+
+  display: flex;
+  justify-content: space-between;
+
+  list-style: none;
+}
+
+.logo {
+  display: flex;
+  justify-content: center;
+
+  margin-right: auto;
+
+  font-size: 1.5em;
+  font-weight: 800;
+  text-decoration: underline;
+  color: blue;
+}
+
+.navigation-item {
+  padding: 0 1em;
+  border-right: .125em solid blue;
+}
+
+.navigation-item:last-child {
+  border-right-width: 0;
 }
