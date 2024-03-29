@@ -23,7 +23,7 @@ p {
 #wrapper {
   display: flex;
 
-  margin: 7em auto;
+  margin: 3em auto;
   max-width: 50em;
 
   border: .125em dashed black;
