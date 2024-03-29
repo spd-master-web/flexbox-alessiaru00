@@ -28,10 +28,16 @@ p {
   max-width: 50em;
   min-height: 40em;
 
-  border: .125em dashed black;
+  border: .25em dashed black;
+}
+
+main{ 
+  display: flex;
 }
 
 nav {
+  align-self: stretch;
+
   padding: 1em;
   max-width: 10em;
 
@@ -40,13 +46,17 @@ nav {
 
 .main-content {
   align-self: stretch;
+
   padding: 1em;
   max-width: 30em;
+  height: auto;
 
   background-color: white;
 }
 
 aside {
+  align-self: stretch;
+
   padding: 1em;
   max-width: 10em;
 
@@ -98,7 +108,7 @@ Layout 2
   max-width: 50em;
 
   margin: 3em auto;
-  border: .125em dashed black;
+  border: .25em dashed black;
 }
 
 #wrapper-2 {
